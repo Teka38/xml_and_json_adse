@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+letter
+{
+    display: block;
+    font-family: Georgia;
+    font-size: 18px;
+    color: rgb(195, 89, 12);
+    font-weight: 700;
+}
+
+to, address, city, body, from
+{
+    display: block;
+    font-family: "Century Gothic";
+    color: #f80;
+    font-size: 15px;

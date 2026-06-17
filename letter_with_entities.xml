@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="../css/letter.css" type="text/css"?>
+
+<!DOCTYPE letter [
+    <!-- Internal Document Type Definition (DTD) -->
+
+    <!-- Elements -->
+    <!ELEMENT letter (to, address, city, body, from)>
+    <!ELEMENT to (#PCDATA)>
+    <!ELEMENT address (#PCDATA)>
+    <!ELEMENT city (#PCDATA)>
+    <!ELEMENT body (#PCDATA)>
+    <!ELEMENT from (#PCDATA)>
+
+    <!-- Entities -->
+    <!ENTITY address "15 Downing St. Floor 1">
+    <!ENTITY city "New York">
+]>
+
+<!-- End of document prolog -->
+
+<!-- student document -->
+<letter>
+    <to>&quot;Tom Smith&quot;</to> 
+    <address>&#10;&address;</address>
+    <city>&city;</city>
+    <body>
+        Hi 👋, how are you?
+        the sum is &gt; $1000.
+    </body>
+    <from>Arnold</from>
+</letter>
