@@ -1,0 +1,26 @@
+{
+    "employee":
+     [
+      {
+        "name": "John Thorpe",
+        "age": 34,
+        "department": "Marketing",
+        "language": "EN",
+        "salary": 1000
+      },
+      {
+        "name": "David Blake",
+        "age": 25,
+        "department": "Admin",
+        "language": "GR",
+        "salary": 1200
+      },
+      {
+        "name": "Ben Johns",
+        "age": 28,
+        "department": "Physical Education",
+        "language": "TR",
+        "salary": 800
+      }
+    ]
+  }
